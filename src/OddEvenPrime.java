@@ -15,7 +15,7 @@ public class OddEvenPrime {
 			System.out.println("number is odd");
 		}
 		
-		// 
+		// if it's greater than 1, test whether it's also prime
 		if (n > 1) {
 			
 			while (i <= n/2) {
