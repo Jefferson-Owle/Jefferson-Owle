@@ -12,9 +12,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Create variables to add button functionality
         var plus = findViewById<Button>(R.id.increment)
         var minus = findViewById<Button>(R.id.decrement)
         var currentValue = findViewById<TextView>(R.id.textView)
+
         // Cast currentValue.text to a string so we can call String functions
         var valueString: String = currentValue.text as String
         // Cast that string to an integer so we can do the math operations
