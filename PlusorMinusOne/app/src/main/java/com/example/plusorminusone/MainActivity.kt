@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Create variables to add button functionality
+        // Create variables to add button functionality and read the current displayed text value
         var plus = findViewById<Button>(R.id.increment)
         var minus = findViewById<Button>(R.id.decrement)
         var currentValue = findViewById<TextView>(R.id.textView)
